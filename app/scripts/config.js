@@ -11,12 +11,12 @@ angular.module('catiApp')
 		$stateProvider
 			.state('list', {
 				url: '/:framework',
-				templateUrl: 'views/list/list.html',
+				templateUrl: 'views/page/list/list.html',
 				controller: 'ListCtrl'
 			})
 			.state('detail', {
 				url: '/:framework',
-				templateUrl: 'views/detail/detail.html',
+				templateUrl: 'views/page/detail/detail.html',
 				controller: 'DetailCtrl'
 			});
 		

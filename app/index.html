@@ -35,6 +35,8 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="https://npmcdn.com/lodash@4/lodash.min.js"></script>
+    <script src="https://npmcdn.com/lowdb/dist/lowdb.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -42,8 +44,15 @@
         <script src="scripts/gss.js"></script>
         <script src="scripts/app.js"></script>
         <script src="scripts/config.js"></script>
-        <script src="scripts/list/list.js"></script>
-        <script src="scripts/detail/detail.js"></script>
+
+        <!-- directive -->
+        <script src="scripts/directive/header/headerDir.js"></script>
+        <script src="scripts/directive/item/itemDir.js"></script>
+        <script src="scripts/directive/scroller/scrollerDir.js"></script>
+
+        <!-- controller -->
+        <script src="scripts/page/list/list.js"></script>
+        <script src="scripts/page/detail/detail.js"></script>
         <!-- endbuild -->
 </body>
 </html>
