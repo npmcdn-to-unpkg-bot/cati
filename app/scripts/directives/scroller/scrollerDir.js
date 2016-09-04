@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module("catiApp")
-	.directive("itemDir", function ($rootScope, $filter, $timeout) {
+angular.module("tuti")
+	.directive("scrollerDir", function ($rootScope, $filter, $timeout) {
 		return {
 			link: function (scope, element, attrs) {
 				
@@ -10,6 +10,6 @@ angular.module("catiApp")
 			scope:{
 			},
 			restrict:"EA",
-			templateUrl: 'views/item/itemDir.html'
+			templateUrl: 'views/scroller/scrollerDir.html'
 		};
 	});

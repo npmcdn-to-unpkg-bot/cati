@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('catiApp')
+angular.module('tuti')
 	.controller('DetailCtrl', function ($scope, $rootScope) {
 		
 });

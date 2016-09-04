@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('catiApp')
+angular.module('tuti')
 	.config(function ($httpProvider, $stateProvider, $urlRouterProvider, $resourceProvider, $compileProvider) {
 
 		$httpProvider.defaults.xsrfCookieName = 'csrftoken';

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("catiApp")
+angular.module("tuti")
 	.directive("headerDir", function ($rootScope, $filter, $timeout) {
 		return {
 			link: function (scope, element, attrs) {

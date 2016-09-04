@@ -1,15 +1,7 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name catiApp
- * @description
- * # catiApp
- *
- * Main module of the application.
- */
 angular
-  .module('catiApp', [
+  .module('tuti', [
     'ngAnimate',
     'ngAria',
     'ngCookies',
